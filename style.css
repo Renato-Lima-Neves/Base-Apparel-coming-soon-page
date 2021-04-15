@@ -1,0 +1,85 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: url('./images/bg-pattern-desktop.svg') no-repeat;
+    background-color: #edc4c2!important;
+}
+
+
+p {
+    font-weight: 300;
+}
+
+.logo {
+    margin-top: 0.5rem;
+}
+
+/* MAIN TXT */
+
+.first-txt {
+    color: hsl(0, 36%, 70%);
+    font-size: 7.5rem;
+    text-transform: uppercase;
+}
+
+.second-txt {
+    color: hsl(0, 6%, 24%);
+    font-size: 7.5rem;
+    text-transform: uppercase;
+}
+
+.store-txt {
+    color: hsl(0, 93%, 68%);
+}
+
+/* E-MAIL */
+
+#email {
+    border-color: hsl(0, 93%, 68%);
+    width: 84.5%;
+}
+
+.form-controler.error input{
+    border-color: red!important;
+}
+
+.form-controler.error p{
+    color: red;
+    visibility: visible;
+}
+
+.form-controler.success input{
+    border-color: green!important;
+}
+
+.form-controler.success p{
+    color: green;
+    visibility: visible;
+}
+
+.form-controler p{
+    visibility: hidden;
+}
+
+/* BUTTON */
+
+.btn {
+  background: linear-gradient(135deg, #f8bfbf 0%, #ee8c8c 100%);
+  border: none;
+  border-radius: 20px;
+  width: 85%;
+  box-shadow: 0 10px 20px #ce9797;
+}
+
+/* FOOTER */
+
+.attribution { 
+  font-size: 1.1rem; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
